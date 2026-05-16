@@ -29,3 +29,19 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+@media  (max-width: 600px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .vertical-collage img{
+        height: auto;
+    }
+    .square-collage{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    
+}
